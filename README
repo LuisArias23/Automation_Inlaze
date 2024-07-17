@@ -1,0 +1,32 @@
+
+
+Configuracion del proyecto
+Java 17
+Serenity 3.9.0
+
+El proyecto se estructuro por medio de package y directorios los cuales stos con tienen clases y archivos.
+
+En definition se tienen dos clases una LoginDef y otra RegistroDef las cuales son las que van a realizar las
+acciones de los casos de pruebas.
+
+En la pages se tienen dos clases LoginPage y RegistroPage las cuales contienen los elementos(Localizadores)
+principales cajas de texto, botones..ect con los cuales se van a interactuar, en la ValidationPage se encuentran
+los elementos(Localzadores) con los cuales se realizaran validaciones a medida que se avanza en el flujo como
+son alertas, texto o mensajes.
+
+En la steps estan dos clases LoginSteps y RegistroSteps las cuales son las que interactuan  con cada elemento
+del aplicativo y esta la validations ue contiene la clase ValidationSteps uque con tiene las diferentes valida-
+ciones dentro del flujo del aplicativo.
+
+En la clase WebSite es donde se parametiza el ingreso al sitio web.
+
+En la clase Runner se parametriza la ruta de los Features y de los definitios, tambien se configura por medio de
+un tag que escenarios se van a ejecutar.
+
+ Y por ultimo tenemos el resources que es el que contiene los features
+ o los casos de pruebas en lenguaje Gherkin
+
+ Para la ejecucion del proyecto solo seria abrirlo descargar las dependencias  y esta configurado para trabajar
+ con el  browser de firefox por lo cual es recomendable tenerlo instalado en la maquina para que este pueda
+ ejecutarse, se deben ejecutar en la clase Runner darle click derecho y seleccionar "Run "Runner"", sin embargo
+ en los archivos que voy a enviar adjuntare un video de como ejecutarlo.
