@@ -70,7 +70,7 @@ public class RegistroDef {
     }
     @Then("la aplicacion no debe dejar registrar al usuario")
     public void la_aplicacion_no_debe_dejar_registrar_al_usuario()  {
-        validate.TextSingInIsNotDisplayed();
+        Assert.assertTrue(validate.TextSingInIsNotDisplayed());
     }
     @And("Diligencia el formulario correctamente e ingresa una contraseña de longitud menor a la permitida")
     public void Diligencia_el_formulario_correctamente_e_ingresa_una_contraseña_de_longitud_menor_a_la_permitida() {
